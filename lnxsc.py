@@ -29,13 +29,13 @@ try:
 
 except KeyboardInterrupt:
     print("\nMengakhir Program")
-    sys.exit
+    sys.exit()
 
 except socket.gaierror:
     print("Hostname tidak di temukan")
-    sys.close
+    sys.exit()
 
 except socket.error:
     print("Tidak menemukan server yang connect")
-    sys.exit
+    sys.exit()
 
