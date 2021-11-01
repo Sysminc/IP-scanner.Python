@@ -7,7 +7,7 @@ from datetime import datetime
 # Memasukan Ip target
 
 if len(sys.argv) == 2:
-    target = socket.gethostname(sys.argv[1])    #Translate menjadi ip
+    target = socket.gethostbyname(sys.argv[1])    #Translate menjadi ip
 else:
     print("Argument tidak vaild")
     print("Syntax: python3 scnner.py <ip>")
