@@ -1,7 +1,11 @@
 # scanner.python
 Scanner port using IP address 
 
-Syntax: python lnxsc.py <ip>
-exmaple: python lnxsc.py 192.168.1.1
+# Syntax
+python lnxsc.py <ip>
+  
+# Require
+apt-get install python3
+chmod +x lnxsc.py
   
 Have Fun!!
