@@ -5,7 +5,8 @@ Scanner port using IP address
 python lnxsc.py <ip>
   
 # Require
-apt-get install python3
-chmod +x lnxsc.py
+<code>apt-get install python3</code>
+</br>
+<code>chmod +x lnxsc.py</code>
   
 Have Fun!!
